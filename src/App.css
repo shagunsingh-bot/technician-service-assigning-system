@@ -193,3 +193,126 @@ h1 span {
   color: #6b7280;
   line-height: 1.5;
 }
+.request-section {
+  padding: 70px 8%;
+  background: #f8fafc;
+}
+
+.request-panel {
+  position: relative;
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 42px;
+  background: white;
+  border-radius: 18px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+}
+
+.request-panel h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.request-intro,
+.match-result > p {
+  color: #6b7280;
+  line-height: 1.6;
+}
+
+.close-btn {
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  border: none;
+  background: transparent;
+  color: #64748b;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.request-form {
+  display: grid;
+  gap: 20px;
+  margin-top: 28px;
+}
+
+.request-form label {
+  display: grid;
+  gap: 8px;
+  color: #334155;
+  font-weight: 600;
+}
+
+.request-form input,
+.request-form select,
+.request-form textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  color: #172033;
+  font: inherit;
+}
+
+.request-form textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.request-form .primary-btn {
+  justify-self: start;
+  border: none;
+}
+
+.match-result {
+  text-align: center;
+}
+
+.success-icon {
+  display: grid;
+  width: 56px;
+  height: 56px;
+  margin: 0 auto 18px;
+  place-items: center;
+  border-radius: 50%;
+  background: #dcfce7;
+  color: #15803d;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.technician-match {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 28px 0;
+  padding: 18px;
+  border: 1px solid #dbeafe;
+  border-radius: 12px;
+  background: #f8fbff;
+  text-align: left;
+}
+
+.technician-match p {
+  margin-top: 4px;
+  color: #64748b;
+  font-size: 14px;
+}
+
+.technician-match span {
+  margin-left: auto;
+  color: #2563eb;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.technician-avatar {
+  display: grid;
+  width: 42px;
+  height: 42px;
+  place-items: center;
+  border-radius: 50%;
+  background: #2563eb;
+  color: white;
+  font-weight: bold;
+}
